@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "./VehicleForm.module.scss";
+import styles from "./page.module.scss";
 
 export default function VehicleForm() {
   const [make, setMake] = useState("");
@@ -67,6 +67,10 @@ export default function VehicleForm() {
 
       // ✅ show success popup
       setShowSuccess(true);
+      setMake("");
+      setModel("");
+      setBadge("");
+      setFile(null);
 
       // auto hide after 3 sec
       setTimeout(() => {
