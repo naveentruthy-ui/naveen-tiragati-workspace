@@ -48,6 +48,25 @@
 
   /* Border */
   --border-width: 2px;
+
+  /* Animation */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-medium: 300ms;
+  --duration-slow: 600ms;
+
+  /* Opacity */
+  --opacity-hidden: 0;
+  --opacity-visible: 1;
+
+  /* Scale */
+  --scale-sm: 0.96;
+  --scale-md: 1.02;
+
+  /* Translate */
+  --translate-sm: 6px;
+  --translate-md: 12px;
 }
 
 body,
